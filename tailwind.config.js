@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      'fontSize' : {
+        '8xl' : '8rem'
+      },
+      'colors': {
+        'red-custom': '#fd681b'
+      }
+    },
   },
   plugins: [],
 }
